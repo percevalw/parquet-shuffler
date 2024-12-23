@@ -1,0 +1,15 @@
+[package]
+name = "parquet-shuffler"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow = "36"
+parquet = "36"
+rand = "0.8"
+uuid = { version = "1.11.0", features = ["v4"] }
+rayon = "1.10.0"
+indicatif = "0.17.9"
+clap = { version = "4.5.23", features = ["derive"] }
